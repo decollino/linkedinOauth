@@ -107,8 +107,8 @@ function getAccessToken(authCode, done) {
         code: authCode,
         redirect_uri:
           'https://x5l42nol3g.execute-api.us-east-1.amazonaws.com/default/linkedin',
-        client_id: '869hh4yjzow1at',
-        client_secret: 'koFoGY7PWOWiDCoT',
+        client_id: 'XXX',
+        client_secret: 'XXX',
       },
     },
     function (err, res, responseBody) {
